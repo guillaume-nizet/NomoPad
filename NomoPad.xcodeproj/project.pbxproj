@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D685F322A5C0459006BA1C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F312A5C0459006BA1C1 /* AppDelegate.swift */; };
+		6D685F342A5C0459006BA1C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F332A5C0459006BA1C1 /* SceneDelegate.swift */; };
+		6D685F362A5C0459006BA1C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F352A5C0459006BA1C1 /* ViewController.swift */; };
+		6D685F392A5C0459006BA1C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D685F372A5C0459006BA1C1 /* Main.storyboard */; };
+		6D685F3B2A5C045B006BA1C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D685F3A2A5C045B006BA1C1 /* Assets.xcassets */; };
+		6D685F462A5C1BE5006BA1C1 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F452A5C1BE5006BA1C1 /* TopView.swift */; };
+		6D685F482A5C1D3E006BA1C1 /* NomographyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F472A5C1D3E006BA1C1 /* NomographyScale.swift */; };
+		6D685F4A2A5C1D80006BA1C1 /* IndexLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F492A5C1D80006BA1C1 /* IndexLine.swift */; };
+		6D685F4C2A5C1DD3006BA1C1 /* Nomography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F4B2A5C1DD3006BA1C1 /* Nomography.swift */; };
+		6D685F522A5C62E4006BA1C1 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F512A5C62E4006BA1C1 /* BottomView.swift */; };
+		6D685F6A2A600821006BA1C1 /* DigitKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F692A600821006BA1C1 /* DigitKeyboard.swift */; };
+		6D685F6E2A604F2F006BA1C1 /* DigitKeyboardKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F6D2A604F2F006BA1C1 /* DigitKeyboardKey.swift */; };
+		6D685F742A6457E5006BA1C1 /* Nomogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D685F732A6457E5006BA1C1 /* Nomogram.swift */; };
+		6D6F53A12A9F90C500E0E8CE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F53A02A9F90C500E0E8CE /* Launch Screen.storyboard */; };
+		6D91C0F02A656B5400C0A5B3 /* VariableDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C0EF2A656B5400C0A5B3 /* VariableDetailView.swift */; };
+		6D91C0F42A74375800C0A5B3 /* StraightNomographyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C0F32A74375800C0A5B3 /* StraightNomographyScale.swift */; };
+		6D91C0F62A743A1300C0A5B3 /* CurvedNomographyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C0F52A743A1300C0A5B3 /* CurvedNomographyScale.swift */; };
+		6D91C0F82A7D5E4300C0A5B3 /* ZoomedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C0F72A7D5E4200C0A5B3 /* ZoomedView.swift */; };
+		6D91C1022A840F2900C0A5B3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C1012A840F2900C0A5B3 /* MenuView.swift */; };
+		6D91C1042A84DFF500C0A5B3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D91C1032A84DFF500C0A5B3 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6D685F662A5F687A006BA1C1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6D685F2E2A5C0459006BA1C1 /* NomoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D685F312A5C0459006BA1C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D685F332A5C0459006BA1C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6D685F352A5C0459006BA1C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D685F382A5C0459006BA1C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D685F3A2A5C045B006BA1C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D685F3F2A5C045B006BA1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D685F452A5C1BE5006BA1C1 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		6D685F472A5C1D3E006BA1C1 /* NomographyScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NomographyScale.swift; sourceTree = "<group>"; };
+		6D685F492A5C1D80006BA1C1 /* IndexLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexLine.swift; sourceTree = "<group>"; };
+		6D685F4B2A5C1DD3006BA1C1 /* Nomography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomography.swift; sourceTree = "<group>"; };
+		6D685F512A5C62E4006BA1C1 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
+		6D685F692A600821006BA1C1 /* DigitKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitKeyboard.swift; sourceTree = "<group>"; };
+		6D685F6D2A604F2F006BA1C1 /* DigitKeyboardKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitKeyboardKey.swift; sourceTree = "<group>"; };
+		6D685F732A6457E5006BA1C1 /* Nomogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nomogram.swift; sourceTree = "<group>"; };
+		6D6F53A02A9F90C500E0E8CE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6D91C0EF2A656B5400C0A5B3 /* VariableDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableDetailView.swift; sourceTree = "<group>"; };
+		6D91C0F32A74375800C0A5B3 /* StraightNomographyScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StraightNomographyScale.swift; sourceTree = "<group>"; };
+		6D91C0F52A743A1300C0A5B3 /* CurvedNomographyScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedNomographyScale.swift; sourceTree = "<group>"; };
+		6D91C0F72A7D5E4200C0A5B3 /* ZoomedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomedView.swift; sourceTree = "<group>"; };
+		6D91C1012A840F2900C0A5B3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		6D91C1032A84DFF500C0A5B3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D685F2B2A5C0459006BA1C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D685F252A5C0459006BA1C1 = {
+			isa = PBXGroup;
+			children = (
+				6D685F302A5C0459006BA1C1 /* NomographyApplication */,
+				6D685F2F2A5C0459006BA1C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D685F2F2A5C0459006BA1C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F2E2A5C0459006BA1C1 /* NomoPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D685F302A5C0459006BA1C1 /* NomographyApplication */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F312A5C0459006BA1C1 /* AppDelegate.swift */,
+				6D685F332A5C0459006BA1C1 /* SceneDelegate.swift */,
+				6D685F372A5C0459006BA1C1 /* Main.storyboard */,
+				6D6F53A02A9F90C500E0E8CE /* Launch Screen.storyboard */,
+				6D685F3A2A5C045B006BA1C1 /* Assets.xcassets */,
+				6D685F3F2A5C045B006BA1C1 /* Info.plist */,
+				6D6F539F2A9F8FE600E0E8CE /* Views */,
+				6D6F53A22A9F966E00E0E8CE /* Nomography */,
+				6D6F53A32A9F969000E0E8CE /* DigitKeyboard */,
+			);
+			path = NomographyApplication;
+			sourceTree = "<group>";
+		};
+		6D6F539F2A9F8FE600E0E8CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F352A5C0459006BA1C1 /* ViewController.swift */,
+				6D91C1032A84DFF500C0A5B3 /* MainView.swift */,
+				6D685F452A5C1BE5006BA1C1 /* TopView.swift */,
+				6D685F512A5C62E4006BA1C1 /* BottomView.swift */,
+				6D91C0EF2A656B5400C0A5B3 /* VariableDetailView.swift */,
+				6D91C0F72A7D5E4200C0A5B3 /* ZoomedView.swift */,
+				6D91C1012A840F2900C0A5B3 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D6F53A22A9F966E00E0E8CE /* Nomography */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F4B2A5C1DD3006BA1C1 /* Nomography.swift */,
+				6D685F732A6457E5006BA1C1 /* Nomogram.swift */,
+				6D685F472A5C1D3E006BA1C1 /* NomographyScale.swift */,
+				6D91C0F32A74375800C0A5B3 /* StraightNomographyScale.swift */,
+				6D91C0F52A743A1300C0A5B3 /* CurvedNomographyScale.swift */,
+				6D685F492A5C1D80006BA1C1 /* IndexLine.swift */,
+			);
+			path = Nomography;
+			sourceTree = "<group>";
+		};
+		6D6F53A32A9F969000E0E8CE /* DigitKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6D685F692A600821006BA1C1 /* DigitKeyboard.swift */,
+				6D685F6D2A604F2F006BA1C1 /* DigitKeyboardKey.swift */,
+			);
+			path = DigitKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D685F2D2A5C0459006BA1C1 /* NomoPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D685F422A5C045B006BA1C1 /* Build configuration list for PBXNativeTarget "NomoPad" */;
+			buildPhases = (
+				6D685F2A2A5C0459006BA1C1 /* Sources */,
+				6D685F2B2A5C0459006BA1C1 /* Frameworks */,
+				6D685F2C2A5C0459006BA1C1 /* Resources */,
+				6D685F662A5F687A006BA1C1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NomoPad;
+			productName = NomographyApplication;
+			productReference = 6D685F2E2A5C0459006BA1C1 /* NomoPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D685F262A5C0459006BA1C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6D685F2D2A5C0459006BA1C1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6D685F292A5C0459006BA1C1 /* Build configuration list for PBXProject "NomoPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D685F252A5C0459006BA1C1;
+			productRefGroup = 6D685F2F2A5C0459006BA1C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D685F2D2A5C0459006BA1C1 /* NomoPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D685F2C2A5C0459006BA1C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D6F53A12A9F90C500E0E8CE /* Launch Screen.storyboard in Resources */,
+				6D685F3B2A5C045B006BA1C1 /* Assets.xcassets in Resources */,
+				6D685F392A5C0459006BA1C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D685F2A2A5C0459006BA1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D685F6E2A604F2F006BA1C1 /* DigitKeyboardKey.swift in Sources */,
+				6D685F742A6457E5006BA1C1 /* Nomogram.swift in Sources */,
+				6D91C1022A840F2900C0A5B3 /* MenuView.swift in Sources */,
+				6D91C0F82A7D5E4300C0A5B3 /* ZoomedView.swift in Sources */,
+				6D685F522A5C62E4006BA1C1 /* BottomView.swift in Sources */,
+				6D685F4A2A5C1D80006BA1C1 /* IndexLine.swift in Sources */,
+				6D685F362A5C0459006BA1C1 /* ViewController.swift in Sources */,
+				6D91C0F62A743A1300C0A5B3 /* CurvedNomographyScale.swift in Sources */,
+				6D685F322A5C0459006BA1C1 /* AppDelegate.swift in Sources */,
+				6D91C0F02A656B5400C0A5B3 /* VariableDetailView.swift in Sources */,
+				6D91C0F42A74375800C0A5B3 /* StraightNomographyScale.swift in Sources */,
+				6D91C1042A84DFF500C0A5B3 /* MainView.swift in Sources */,
+				6D685F462A5C1BE5006BA1C1 /* TopView.swift in Sources */,
+				6D685F342A5C0459006BA1C1 /* SceneDelegate.swift in Sources */,
+				6D685F6A2A600821006BA1C1 /* DigitKeyboard.swift in Sources */,
+				6D685F4C2A5C1DD3006BA1C1 /* Nomography.swift in Sources */,
+				6D685F482A5C1D3E006BA1C1 /* NomographyScale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D685F372A5C0459006BA1C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D685F382A5C0459006BA1C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D685F402A5C045B006BA1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = NomoPad;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D685F412A5C045B006BA1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = NomoPad;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D685F432A5C045B006BA1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUB9Q96CP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NomographyApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NomoPad;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnizet.NomographyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D685F442A5C045B006BA1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DUB9Q96CP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NomographyApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NomoPad;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gnizet.NomographyApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D685F292A5C0459006BA1C1 /* Build configuration list for PBXProject "NomoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D685F402A5C045B006BA1C1 /* Debug */,
+				6D685F412A5C045B006BA1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D685F422A5C045B006BA1C1 /* Build configuration list for PBXNativeTarget "NomoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D685F432A5C045B006BA1C1 /* Debug */,
+				6D685F442A5C045B006BA1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D685F262A5C0459006BA1C1 /* Project object */;
+}
